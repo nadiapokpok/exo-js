@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+#container{
+    height: 180vh;
+    width: 50vw;
+}
+
+#windowleft{
+    position: absolute;
+    right: 0;
+    top:45vh;
+    
+    width: 50%;
+    transform: translate(100%);
+    border: 3px solid black;
+}
+
+#windowright{
+    position: absolute;
+    left: 0;
+    top:45vh;
+    overflow: hidden;
+    width: 50%;
+    transform: translate(-100%);
+    border: 3px solid black;
+}
+

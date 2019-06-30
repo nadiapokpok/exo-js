@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Quels bruits font-ils?</h1>
+
+    <div class="container">
+
+        <div onclick="openModal('chien')" class="container-card">
+            <h2 id="title-chien">Chien :</h2>
+            <img src="./media/img/chien.JPG" alt="">
+            <p id="text-chien">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae alias reiciendis aut corporis, rerum, cumque harum voluptatem distinctio reprehenderit natus dolor error? Culpa id qui delectus maxime sunt error totam!</p>
+        </div>
+
+        <div onclick="openModal('cochon')" class="container-card">
+                <h2 id="title-cochon">Cochon :</h2>
+                <img src="./media/img/cochon.jpg" alt="">
+                <p id="text-cochon">Cochon textLorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae alias reiciendis aut corporis, rerum, cumque harum voluptatem distinctio reprehenderit natus dolor error? Culpa id qui delectus maxime sunt error totam!</p>
+            </div>
+
+            <div onclick="openModal('tigre')" class="container-card">
+                    <h2 id="title-tigre">Tigre :</h2>
+                    <img src="./media/img/tigre.jpg" alt="">
+                    <p id="text-tigre">Tigre textLorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae alias reiciendis aut corporis, rerum, cumque harum voluptatem distinctio reprehenderit natus dolor error? Culpa id qui delectus maxime sunt error totam!</p>
+                </div>
+
+    </div>
+
+    <div class="container-modal">
+        <div class="modal">
+            <h1 id="title-modal"></h1>
+            <p id="text-modal"></p>
+            <button onclick="clickSong()">Son</button>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
